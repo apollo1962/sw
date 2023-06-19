@@ -1,0 +1,72 @@
+// 📁 public ∴∵ ⦙ 📁 stl ∴∵ ⦙ 📁 components ∴∵ ⦙ display.sass
+
+.component_display
+  background-image: url('~images/bg.jpg')
+  background-color: transparent
+  background-repeat: no-repeat
+  background-size: cover
+  position: relative
+  display: flex
+  align-items: center
+  justify-content: center
+  width: 100vw
+  min-height: 100vh
+  margin: 0
+  padding: 80px 0
+
+  .wrap
+    max-width: 600px
+    min-width: 600px
+    margin: 0 auto
+    padding: 0
+
+  .header
+    width: auto
+    height: auto
+    display: flex
+    flex-direction: row
+    gap: 32px
+    margin: 0 0 40px 0
+    padding: 0
+
+    .-logo
+      min-width: 30%
+      max-width: 30%
+      margin: 0
+      padding: 12px 0 0 0
+
+    .-label
+      width: 100%
+      padding: 0 25% 0 0
+      margin: 0
+
+  .body
+    position: relative
+    margin: 0 0 8px 0
+    padding: 0
+
+    .-form
+      display: flex
+      align-items: center
+      flex-direction: row
+      gap: 16px
+
+      .--input
+        width: 100%
+
+      .--button
+        width: auto
+
+  .results
+    margin: 24px 0 0 0
+    display: none
+
+    &._active
+      display: block
+
+    .done
+      margin: 0 0 12px 0
+
+
+
+

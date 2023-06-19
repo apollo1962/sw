@@ -1,0 +1,110 @@
+// 📁 public ∴∵ ⦙ 📁 stl ∴∵ ⦙ 📁 elements ∴∵ ⦙ index.sass
+
+// ✋ ∴∵
+.input
+  background-image: none
+  background-color: rgba(#fff, .15)
+  -webkit-backdrop-filter: blur(90px)
+  position: relative
+  width: 100%
+  height: 40px
+  display: flex
+  padding: 11px 16px 9px
+  border: 0
+  border-radius: 8px
+  outline: 0
+  font-family: Object, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif
+  font-size: 13px
+  font-weight: 400
+  line-height: 1.2
+  letter-spacing: -0.3px
+  color: #fff
+  -webkit-appearance: none
+  -moz-appearance: none
+  appearance: none
+
+  &::-webkit-input-placeholder
+    opacity: 1
+    color: #fff
+
+  &::-ms-input-placeholder
+    opacity: 1
+    color: #fff
+
+  &::-moz-placeholder
+    opacity: 1
+    color: #fff
+
+// ✋ ∴∵
+.button
+  background-color: transparent
+  background-image: none
+  position: relative
+  display: flex
+  align-items: center
+  justify-content: center
+  width: auto
+  height: 36px
+  margin: 0
+  padding: 0 16px
+  border: 0 solid transparent
+  border-radius: 8px
+  cursor: pointer
+
+  &::before
+    background-color: #fff
+    background-image: none
+    position: absolute
+    z-index: 1
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+    border: 0
+    border-radius: 8px
+    box-shadow: none
+    display: flex
+    content: ''
+    transition: none
+
+  span
+    z-index: 3
+    padding: 1px 0 0 0
+    font-family: Object, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif
+    font-size: 12px
+    font-weight: 400
+    line-height: 1.2
+    letter-spacing: -0.3px
+    color: #2a1232
+
+// ✋ ∴∵
+.table
+  width: 100%
+  height: auto
+  border: 1px solid rgba(#fff, .5)
+  border-radius: 8px
+
+  tr:nth-child(even) td
+    background-image: none
+    background-color: rgba(#fff, .05)
+
+  th, td
+    background-image: none
+    background-color: transparent
+    padding: 8px 6px
+    border: 1px solid transparent
+    font-size: 11px
+    font-weight: 400
+    line-height: 1.2
+    letter-spacing: -0.3px
+    text-align: left
+    color: #fff
+
+// ✋ ∴∵
+.title
+  font-size: 18px
+  font-weight: 600
+  line-height: 1.2
+  letter-spacing: -0.3px
+  color: #fff
+

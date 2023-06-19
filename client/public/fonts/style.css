@@ -1,0 +1,20 @@
+@font-face {
+  font-family: Object;
+  src: url("object.woff2") format("woff2-variations");
+  font-weight: 125 950;
+  font-style: normal;
+}
+@font-face {
+  font-family: Poppins;
+  src: url("poppins.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: Marker;
+  src: url("marker.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*# sourceMappingURL=style.css.map */

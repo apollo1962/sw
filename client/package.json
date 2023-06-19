@@ -1,0 +1,15 @@
+{
+  "name": "sw client",
+  "version": "",
+  "description": "",
+  "main": "./app.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+  },
+  "module": "src/index.js",
+  "dependencies": {
+    "crel": "^4.2.1"
+  }
+}
